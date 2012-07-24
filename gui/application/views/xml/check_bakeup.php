@@ -1,0 +1,21 @@
+<?php
+echo <<<XML
+<dip_command>
+<command>query_rollback_point</command>
+<command_data>
+<db_user>$db_user</db_user>
+<db_password>$password</db_password>
+<tns>$tns</tns>
+<conditions>
+<start_time>$start_time</start_time>
+<end_time>$end_time</end_time>
+<schema>$username</schema>
+<table>$table</table>
+<operation>$option</operation>
+</conditions>
+<page>$page</page>
+<page_count>$page_count</page_count>
+</command_data>
+</dip_command>
+XML
+;

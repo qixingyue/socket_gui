@@ -1,0 +1,30 @@
+<?php
+echo <<<XML
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <task_name>xxxx</task_name>
+    <source_db>xxxx</source_db>
+    <target_db>xxxx</target_db>
+    <record_no>1</record_no>
+    <results>
+      <column>
+        <name>A</name>
+        <source_data>a</source_data>
+        <target_data>b</target_data>
+      </column>
+       <column>
+        <name>B</name>
+        <source_data>c</source_data>
+        <target_data>c</target_data>
+      </column>
+      <column>
+        <name>C</name>
+        <source_data>c</source_data>
+        <target_data>c</target_data>
+      </column>
+    </results>
+  </return_data>
+</dip_command>
+XML
+;

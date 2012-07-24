@@ -1,0 +1,33 @@
+<?php
+echo <<<XML
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <result_name>result_name</result_name>
+    <record_no>1</record_no>
+    <results>
+      <column>
+        <name>A</name>
+        <source_data>a</source_data>
+        <target_data>a</target_data>
+      </column>
+       <column>
+        <name>D</name>
+        <source_data>a</source_data>
+        <target_data>b</target_data>
+      </column>
+       <column>
+        <name>B</name>
+        <source_data>a</source_data>
+        <target_data>b</target_data>
+      </column>
+       <column>
+        <name></name>
+        <source_data>a</source_data>
+        <target_data>b</target_data>
+      </column>
+    </results>
+  </return_data>
+</dip_command>
+XML
+;

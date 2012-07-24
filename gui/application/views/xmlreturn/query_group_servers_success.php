@@ -1,0 +1,23 @@
+<?php
+echo <<<XML
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+XML
+; 

@@ -1,0 +1,10 @@
+vserver 是导出的jar包
+server_ini是运行的socket服务器环境的源代码
+gui是页面部分的代码
+
+运行方法：
+cd vserver
+java -jar server.jar run.ini
+
+其中可以在run.ini中配置获取数据的URL和写入日志的路径
+

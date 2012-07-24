@@ -1,0 +1,21 @@
+<?php
+echo <<<XML
+<dip_command>
+<command>test_capture_db</command>
+<command_data>
+<db_type>$type</db_type>
+<source_db>
+<db_user>{$sourcedb['db_user']}</db_user>
+<db_password>{$sourcedb['password']}</db_password>
+<tns_1>{$sourcedb['tns_1']}</tns_1> 
+<tns_2>{$sourcedb['tns_2']}</tns_2>
+<source_db>
+<downstream_db>
+<db_user>{$downstreamdb['db_user']}</db_user>
+<db_password>{$downstreamdb['password']}</db_password>
+<tns>{$downstreamdb['tns']}</tns>
+</downstream_db>
+</command_data>
+</dip_command>
+XML
+;

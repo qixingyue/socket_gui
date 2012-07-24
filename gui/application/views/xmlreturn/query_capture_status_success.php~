@@ -1,0 +1,85 @@
+<?php
+echo <<<XML
+<dip_command>
+	<command_return>SUCCESS</command_return>
+	<return_data>
+		<db_name>dbhello_A</db_name>
+		<tns>hellotns</tns>
+		<status>terminated</status>
+		<start_time>20120125151</start_time>
+		<work_scn>15115151</work_scn>
+		<work_scn_time>154546551565</work_scn_time>
+		<op_insert>155</op_insert>
+		<op_update>255</op_update>
+		<op_delete>555</op_delete>
+		<op_ddl>4444</op_ddl>
+		<last_sql>insert into A values('a','b','c');</last_sql>
+		<history_op>
+			<op_node>
+				<op_insert>1</op_insert>
+				<op_update>2</op_update>
+				<op_delete>3</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>100</op_insert>
+				<op_update>120</op_update>
+				<op_delete>130</op_delete>
+				<op_ddl>140</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>1</op_insert>
+				<op_update>2</op_update>
+				<op_delete>3</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+<op_node>
+				<op_insert>1</op_insert>
+				<op_update>2</op_update>
+				<op_delete>3</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>100</op_insert>
+				<op_update>120</op_update>
+				<op_delete>130</op_delete>
+				<op_ddl>140</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>1</op_insert>
+				<op_update>2</op_update>
+				<op_delete>3</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node><op_node>
+				<op_insert>1</op_insert>
+				<op_update>2</op_update>
+				<op_delete>3</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>100</op_insert>
+				<op_update>120</op_update>
+				<op_delete>130</op_delete>
+				<op_ddl>140</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>1</op_insert>
+				<op_update>2</op_update>
+				<op_delete>3</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+		</history_op>
+		<errors>
+			<error>
+				<error_time>1125122</error_time>
+				<error_message>出错啦</error_message>
+			</error>
+			<error>
+				<error_time>112512422</error_time>
+				<error_message>真出错啦</error_message>
+			</error>
+		</errors>
+	</return_data>
+</dip_command>
+XML
+;

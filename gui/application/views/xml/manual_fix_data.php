@@ -1,0 +1,21 @@
+<?php
+echo <<<XML
+<dip_command>
+<command>manual_fix_data</command>
+<command_data>
+<source_db>
+<db_user>{$sourcedb['user']}</db_user>
+<db_password>{$sourcedb['password']}</db_password>
+<tns>{$sourcedb['tns']}</tns>
+</source_db>
+<target_db>
+<db_user>{$targetdb['user']}</db_user>
+<db_password>{$targetdb['password']}</db_password>
+<tns>{$targetdb['tns']}</tns>
+</target_db>
+<reference_by>$referenceby</reference_by>
+<fix_command>$fix_command</fix_command>
+</command_data>
+</dip_command>
+XML
+;

@@ -1,0 +1,22 @@
+<?php
+echo <<<XML
+<dip_command>
+<command>compare_table</command>
+<command_data>
+<source_db>
+<db_user>{$sourcedb['user']}</db_user>
+<db_password>{$sourcedb['password']}</db_password>
+<tns>{$sourcedb['tns']}</tns>
+<table>{$sourcedb['table']}</table>
+</source_db>
+<target_db>
+<db_user>{$targetdb['user']}</db_user>
+<db_password>{$targetdb['password']}</db_password>
+<tns>{$targetdb['tns']}</tns>
+<table>{$targetdb['table']}</table>
+</target_db>
+<compare_condition>$condition</compare_condition>
+</command_data>
+</dip_command>
+XML
+;

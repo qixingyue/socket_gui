@@ -1,0 +1,46 @@
+<?php
+echo <<<XML
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>group</group>
+    <server_name>server</server_name>
+    <server_type>oracle</server_type>
+    <db_type>DB2</db_type>
+    <db_user>user</db_user>
+    <db_password>password</db_password>
+    <tns>tns</tns>
+    <skip_taged>YES</skip_taged>
+    <auto_fix>NO</auto_fix>
+    <skip_error>skip_record</skip_error>
+    <delay_alert>10</delay_alert>
+    <data_reserved_days>10</data_reserved_days> 
+    <filter>
+      <filter_type>include</filter_type>
+      <schema>
+        <name>xxxx</name>
+        <mapping_name>yyyy</mapping_name>
+        <object_type>
+          <name>table</name>
+          <object_name>ooookkkkkkkkkkkkkkkkkkkkkkkkkkkk</object_name>
+          <object_name>oooo</object_name>
+        </object_type>
+      </schema>
+    </filter>
+    <filter>
+      <filter_type>exclude</filter_type>
+      <schema>
+        <name>xxxx</name>
+        <mapping_name>yyyy</mapping_name>
+        <object_type>
+          <name>table</name>
+          <object_name>oooo</object_name>
+          <object_name>oooo</object_name>
+        </object_type>
+      </schema>
+    </filter>
+  </return_data>
+</dip_command>
+
+XML
+;

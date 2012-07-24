@@ -1,0 +1,24 @@
+<?php
+echo <<<XML
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <task_name>xxxx</task_name>
+    <source_db>xxxx</source_db>
+    <target_db>xxxx</target_db>
+    <results>
+      <owner>hello</owner>
+      <table>table</table>
+      <ok_count>122</ok_count>
+      <dismatch_count>123</dismatch_count>
+    </results>
+     <results>
+      <owner>hello</owner>
+      <table>table</table>
+      <ok_count>122</ok_count>
+      <dismatch_count>123</dismatch_count>
+    </results>
+  </return_data>
+</dip_command>
+XML
+;

@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color:#55AA66;
+}
+
+.left{
+	float:left;
+	width:200px;
+	border: 1px solid black;
+	height:900px;
+	margin-left:120px;
+	margin-top:30px;
+	padding-left:30px;
+	padding-top:20px;
+}
+
+.left ul li {
+	height:35px;
+}
+
+.main{
+	float:left;
+	width:800px;
+	border: 1px solid black;
+	height:900px;
+	margin-top:30px;
+	padding-left:30px;
+	padding-top:20px;
+}
+
+.main .group_status {
+   margin-top:20px;
+}
+
+.main table{
+	border: 1px dotted black;
+	width:80%;
+}
+
+.main table tr{
+	height:35px;
+}
+
+.main table td{
+	border: 1px dotted black;
+}
+
+.smalllist {
+	margin:30px 0px;
+}
+
+.smalllist li {
+	list-style:none; 
+	height:40px;
+}
