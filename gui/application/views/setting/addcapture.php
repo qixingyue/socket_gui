@@ -13,7 +13,7 @@
 </div> <!--end navLeft-->
 <div id="rightFrame">    
 <div id="wrap" >
-      <form id="CaptureServerForm" name="CaptureServerForm">
+      <form id="CaptureServerForm" name="CaptureServerForm" method="post">
         <div class="pageTitle">注册数据捕获（Capture）服务</div>
         <table width="625" class="captureTable">
           <tr>
