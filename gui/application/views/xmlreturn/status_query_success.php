@@ -1,224 +1,73 @@
 <?php
 	echo <<<XML
-<dip_command>
+	<dip_command>
   <command_return>SUCCESS</command_return>
   <return_data>
     <group>
-      <name>hello_group</name>
+      <name>group1</name>
       <captures>
         <capture>
-          <name>cap1</name>
-          <thread>1556</thread>
-          <db_name>xxxx</db_name>
-          <status>running</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>   
-         <capture>
-          <name>cap2</name>
-          <thread>1551</thread>
-          <db_name>xxxx</db_name>
-          <status>running</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>                         
+          <name>dcl_oracap</name>
+          <thread>1</thread>
+          <db_name>rdtb</db_name>
+          <status>Unknown</status>
+          <start_time>2012-09-18 16:33:24</start_time>
+          <work_scn>201305642</work_scn>
+          <work_scn_time>2012-09-13 15:47:53</work_scn_time>
+        </capture>
         <simulator>
-          <thread>1551</thread>
-          <name>simulator</name>
-          <db_name>xxxx</db_name>
-          <status>sss</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1151</work_scn>
-          <work_scn_time>216456545</work_scn_time>
+          <name>dcl_simulator</name>
+          <db_name></db_name>
+          <status>running</status>
+          <start_time>2012-09-18 16:33:25</start_time>
+          <work_scn>201299523</work_scn>
+          <work_scn_time>2012-09-13 13:10:22</work_scn_time>
         </simulator>
-      </captures> 
+      </captures>
       <servers>
         <server>
-          <name>server1</name>
-          <db_name>xxxx</db_name>
-          <thread>1551</thread>
+          <name>dcl_undo</name>
+          <db_name>rdtc</db_name>
           <status>running</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>15555</work_scn>
-          <work_scn_time>21565455</work_scn_time>
+          <start_time>2012-09-13 10:15:09</start_time>
+          <work_scn>201182620</work_scn>
+          <work_scn_time>2012-09-13 10:16:06</work_scn_time>
         </server>
       </servers>
     </group>
     <group>
-      <name>A</name>
+      <name>group2</name>
       <captures>
         <capture>
-          <name>cap1</name>
-          <thread>1551</thread>
-          <db_name>xxxx</db_name>
-          <status>xxx</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>   
-         <capture>
-          <name>cap2</name>
-          <thread>1551</thread>
-          <db_name>xxxx</db_name>
-          <status>running</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>                         
+          <name>dcl_oracap</name>
+          <thread>1</thread>
+          <db_name>rdtb</db_name>
+          <status></status>
+          <start_time></start_time>
+          <work_scn>0</work_scn>
+          <work_scn_time></work_scn_time>
+        </capture>
         <simulator>
-          <thread>1551</thread>
-          <name>simulator</name>
-          <db_name>xxxx</db_name>
-          <status>sss</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1151</work_scn>
-          <work_scn_time>216456545</work_scn_time>
+          <name>dcl_simulator</name>
+          <db_name></db_name>
+          <status></status>
+          <start_time></start_time>
+          <work_scn>0</work_scn>
+          <work_scn_time></work_scn_time>
         </simulator>
-      </captures> 
+      </captures>
       <servers>
         <server>
-          <name>server1</name>
-          <db_name>xxxx</db_name>
-          <thread>1551</thread>
-          <status>running</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>15555</work_scn>
-          <work_scn_time>21565455</work_scn_time>
-        </server>
-      </servers>
-    </group>
-    <group>
-      <name>A</name>
-      <captures>
-        <capture>
-          <name>cap1</name>
-          <thread>1551</thread>
-          <db_name>xxxx</db_name>
-          <status>xxx</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>   
-         <capture>
-          <name>cap2</name>
-          <thread>1551</thread>
-          <db_name>xxxx</db_name>
-          <status>running</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>                         
-        <simulator>
-          <thread>1551</thread>
-          <name>simulator</name>
-          <db_name>xxxx</db_name>
-          <status>sss</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1151</work_scn>
-          <work_scn_time>216456545</work_scn_time>
-        </simulator>
-      </captures> 
-      <servers>
-        <server>
-          <name>server1</name>
-          <db_name>xxxx</db_name>
-          <thread>1551</thread>
-          <status>running</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>15555</work_scn>
-          <work_scn_time>21565455</work_scn_time>
-        </server>
-      </servers>
-    </group>
-    <group>
-      <name>A</name>
-      <captures>
-        <capture>
-          <name>cap1</name>
-          <thread>1551</thread>
-          <db_name>xxxx</db_name>
-          <status>xxx</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>   
-         <capture>
-          <name>cap2</name>
-          <thread>1551</thread>
-          <db_name>xxxx</db_name>
-          <status>running</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>                         
-        <simulator>
-          <thread>1551</thread>
-          <name>simulator</name>
-          <db_name>xxxx</db_name>
-          <status>sss</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1151</work_scn>
-          <work_scn_time>216456545</work_scn_time>
-        </simulator>
-      </captures> 
-      <servers>
-        <server>
-          <name>server1</name>
-          <db_name>xxxx</db_name>
-          <thread>1551</thread>
-          <status>running</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>15555</work_scn>
-          <work_scn_time>21565455</work_scn_time>
-        </server>
-      </servers>
-    </group>
-    <group>
-      <name>A</name>
-      <captures>
-        <capture>
-          <name>cap1</name>
-          <thread>1551</thread>
-          <db_name>xxxx</db_name>
-          <status>xxx</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>   
-         <capture>
-          <name>cap2</name>
-          <thread>1551</thread>
-          <db_name>xxxx</db_name>
-          <status>running</status>         
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1566</work_scn>
-          <work_scn_time>154165454</work_scn_time>
-        </capture>                         
-        <simulator>
-          <thread>1551</thread>
-          <name>simulator</name>
-          <db_name>xxxx</db_name>
-          <status>sss</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>1151</work_scn>
-          <work_scn_time>216456545</work_scn_time>
-        </simulator>
-      </captures> 
-      <servers>
-        <server>
-          <name>server1</name>
-          <db_name>xxxx</db_name>
-          <thread>1551</thread>
-          <status>running</status>
-          <start_time>2012-12-11:10:00:0</start_time>
-          <work_scn>15555</work_scn>
-          <work_scn_time>21565455</work_scn_time>
+          <name>dcl_undo</name>
+          <db_name>rdtc</db_name>
+          <status></status>
+          <start_time></start_time>
+          <work_scn>0</work_scn>
+          <work_scn_time></work_scn_time>
         </server>
       </servers>
     </group>
   </return_data>
-</dip_command>
+</dip_command>                   
 XML
 ;

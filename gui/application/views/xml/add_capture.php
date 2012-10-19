@@ -9,9 +9,9 @@ echo <<<XML
 <source_db>
 <db_user>{$sourcedb['user']}</db_user>
 <db_password>{$sourcedb['password']}</db_password>
-<tns_1>{$sourcedb['tns_1']}</tns_1>
-<tns_2>{$sourcedb['tns_2']}</tns_2>
-<source_db>
+<tns_1>{$sourcedb['tns1']}</tns_1>
+<tns_2>{$sourcedb['tns2']}</tns_2>
+</source_db>
 <downstream_db>
 <db_user>{$downstreamdb['user']}</db_user>
 <db_password>{$downstreamdb['password']}</db_password>

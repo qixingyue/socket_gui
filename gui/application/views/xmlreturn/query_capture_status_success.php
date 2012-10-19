@@ -13,6 +13,8 @@ echo <<<XML
 		<start_time>20120125151</start_time>
 		<work_scn>15115151</work_scn>
 		<work_scn_time>154546551565</work_scn_time>
+		<current_scn>current_scn</current_scn>
+		<current_time>current_time</current_time>
 		<op_insert>{$insert}</op_insert>
 		<op_update>{$update}</op_update>
 		<op_delete>{$delete}</op_delete>

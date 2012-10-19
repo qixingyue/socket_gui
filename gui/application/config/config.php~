@@ -358,7 +358,7 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 
-$config['ip'] = 'localhost';
+$config['ip'] = '192.168.1.100';
 $config['point'] = 5678;
 $config['refresh_times'] = 5000;				//单位是毫秒
 $config['adminuser'] = array('user'=>'admin','password'=>'admin');

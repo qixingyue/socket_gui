@@ -33,6 +33,7 @@
 						</tr>
 					</table>
 				</div>
+				
 				<!--隐藏的对话框2 Loader里面的指定SCN启动，现在两个GroupTable都是公用的一个相同的dialog -->
 				<div id="hideDialog12" class="white_content">
 					<div class="dialogDIV">
@@ -170,7 +171,7 @@ function CloseDiv(show_div,bg_div,submit)
 		if(mode == "server"){
 			sendUp(name,group,_n("startscn2").val(),_n("lowscn2").val());
 		} else {
-			sendUp(name,group,_n("startscn1").val(),_n("lowscn").val());
+			sendUp(name,group,_n("startscn1").val(),_n("lowscn1").val());
 		}
 	}
 };
@@ -200,6 +201,9 @@ $(document).ready(function() {
 	$(".runStateTable tr:nth-child(odd)").css("backgroundColor","#ebf1f8");
     $(".runStateTable th:nth-child(n+2)").addClass("b_l_fff");
     $(".runStateTable th:nth-child(-n+7)").addClass("b_r_blue");
+    $("table.runStateTable").each(function(i,obj){
+		$(this).a_width(['70px','15px','30px','120px','60px','120px','30px']);
+    });
 });
 </script>
 

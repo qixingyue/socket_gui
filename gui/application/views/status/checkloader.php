@@ -215,7 +215,7 @@ HTML
 <script type="text/javascript">
 	<?php $url = current_url(); js_refresh_seconds(<<<JS
 			function(){
-				loader.load("new_node",{group:'$group',name:'$name',type:'$type'},function(res,data){
+				loader.load("new_node",{group:'$group',name:'$name',type:'loader'},function(res,data){
 					if(res){
 					    var x = ++window.curretx;
 						chart.series[0].addPoint([x,data.insert],true,true);

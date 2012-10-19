@@ -1,0 +1,3965 @@
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Started at Sun Sep 09 16:13:55 CST 2012
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group_server</command>
+<command_data>
+<group>GroupA</group>
+<component>
+<type>loader</type>
+<name>%E5%90%8D%E7%A7%B0B</name>
+</component>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>GroupA</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group_server</command>
+<command_data>
+<group>GroupA</group>
+<component>
+<type>loader</type>
+<name>%E5%90%8D%E7%A7%B0B</name>
+</component>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>GroupA</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group_server</command>
+<command_data>
+<group>GroupA</group>
+<component>
+<type>loader</type>
+<name>%E5%90%8D%E7%A7%B0B</name>
+</component>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>GroupA</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group_server</command>
+<command_data>
+<group>GroupA</group>
+<component>
+<type>loader+TCDP</type>
+<name>%E5%90%8D%E7%A7%B0B</name>
+</component>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>GroupA</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_apply_config</command>
+<command_data>
+<group>GroupA</group>
+<server_name>%E5%90%8D%E7%A7%B0B</server_name>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>group</group>
+    <server_name>server</server_name>
+    <server_type>oracle</server_type>
+    <db_type>DB2</db_type>
+    <db_user>user</db_user>
+    <db_password>password</db_password>
+    <tns>tns</tns>
+    <skip_taged>YES</skip_taged>
+    <auto_fix>NO</auto_fix>
+    <skip_error>skip_record</skip_error>
+    <delay_alert>10</delay_alert>
+    <data_reserved_days>10</data_reserved_days> 
+    <filter>
+      <filter_type>include</filter_type>
+      <schema>
+        <name>xxxx</name>
+        <mapping_name>yyyy</mapping_name>
+        <object_type>
+          <name>table</name>
+          <object_name>ooookkkkkkkkkkkkkkkkkkkkkkkkkkkk</object_name>
+          <object_name>oooo</object_name>
+        </object_type>
+      </schema>
+    </filter>
+    <filter>
+      <filter_type>exclude</filter_type>
+      <schema>
+        <name>xxxx</name>
+        <mapping_name>yyyy</mapping_name>
+        <object_type>
+          <name>table</name>
+          <object_name>oooo</object_name>
+          <object_name>oooo</object_name>
+        </object_type>
+      </schema>
+    </filter>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group_server</command>
+<command_data>
+<group>GroupA</group>
+<component>
+<type>loader+TCDP</type>
+<name>%E5%90%8D%E7%A7%B0B</name>
+</component>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>GroupA</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group_server</command>
+<command_data>
+<group>1</group>
+<component>
+<type>ORA_CAPTURE</type>
+<name>123</name>
+</component>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>1</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group_server</command>
+<command_data>
+<group>1</group>
+<component>
+<type>ORA_CAPTURE</type>
+<name>123</name>
+</component>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>1</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group_server</command>
+<command_data>
+<group>1</group>
+<component>
+<type>ORA_CAPTURE</type>
+<name>123</name>
+</component>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>1</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Started at Sun Sep 09 16:17:48 CST 2012
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>delete_group_server</command>
+<command_data>
+<group>1</group>
+<component>
+<type>ORA_CAPTURE</type>
+<name>123</name>
+</component>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>1</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_init_data_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <status>no_init</status>
+    <process_percent>81</process_percent>
+    <detail_info>亲，正在进行初始化！</detail_info>
+  </return_data>
+</dip_command>	
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_compare_task</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<task>
+<name>compare1</name>
+<db1>db1</db1>
+<db2>db2</db2>
+<status>nnn</status>
+</task>
+<task>
+<name>compare2</name>
+<db1>db1</db1>
+<db2>db2</db2>
+<status>nnn</status>
+</task>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_init_data_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <status>no_init</status>
+    <process_percent>80</process_percent>
+    <detail_info>亲，正在进行初始化！</detail_info>
+  </return_data>
+</dip_command>	
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_init_data_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <status>no_init</status>
+    <process_percent>98</process_percent>
+    <detail_info>亲，正在进行初始化！</detail_info>
+  </return_data>
+</dip_command>	
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_status</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <group>
+      <name>hello_group</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1556</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+    <group>
+      <name>A</name>
+      <captures>
+        <capture>
+          <name>cap1</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>xxx</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>   
+         <capture>
+          <name>cap2</name>
+          <thread>1551</thread>
+          <db_name>xxxx</db_name>
+          <status>running</status>         
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1566</work_scn>
+          <work_scn_time>154165454</work_scn_time>
+        </capture>                         
+        <simulator>
+          <thread>1551</thread>
+          <name>simulator</name>
+          <db_name>xxxx</db_name>
+          <status>sss</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>1151</work_scn>
+          <work_scn_time>216456545</work_scn_time>
+        </simulator>
+      </captures> 
+      <servers>
+        <server>
+          <name>server1</name>
+          <db_name>xxxx</db_name>
+          <thread>1551</thread>
+          <status>running</status>
+          <start_time>2012-12-11:10:00:0</start_time>
+          <work_scn>15555</work_scn>
+          <work_scn_time>21565455</work_scn_time>
+        </server>
+      </servers>
+    </group>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_capture_status</command>
+<command_data>
+<group>hello_group</group>
+<thread>1556</thread>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+	<command_return>SUCCESS</command_return>
+	<return_data>
+		<db_name>dbhello_A</db_name>
+		<tns>hellotns</tns>
+		<status>terminated</status>
+		<start_time>20120125151</start_time>
+		<work_scn>15115151</work_scn>
+		<work_scn_time>154546551565</work_scn_time>
+		<op_insert>85</op_insert>
+		<op_update>79</op_update>
+		<op_delete>68</op_delete>
+		<op_ddl>86</op_ddl>
+		<last_sql>insert into A values('a','b','c');</last_sql>
+		<history_op>
+			<op_node>
+				<op_insert>85</op_insert>
+				<op_update>79</op_update>
+				<op_delete>68</op_delete>
+				<op_ddl>86</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>37</op_insert>
+				<op_update>12</op_update>
+				<op_delete>34</op_delete>
+				<op_ddl>73</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>23</op_insert>
+				<op_update>12</op_update>
+				<op_delete>33</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>21</op_insert>
+				<op_update>23</op_update>
+				<op_delete>35</op_delete>
+				<op_ddl>23</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>67</op_insert>
+				<op_update>24</op_update>
+				<op_delete>67</op_delete>
+				<op_ddl>43</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>13</op_insert>
+				<op_update>23</op_update>
+				<op_delete>36</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node><op_node>
+				<op_insert>14</op_insert>
+				<op_update>24</op_update>
+				<op_delete>33</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>40</op_insert>
+				<op_update>10</op_update>
+				<op_delete>60</op_delete>
+				<op_ddl>50</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>31</op_insert>
+				<op_update>24</op_update>
+				<op_delete>34</op_delete>
+				<op_ddl>18</op_ddl>
+			</op_node>
+		</history_op>
+		<errors>
+			<error>
+				<error_time>1125122</error_time>
+				<error_message>出错啦</error_message>
+			</error>
+			<error>
+				<error_time>112512422</error_time>
+				<error_message>真出错啦</error_message>
+			</error>
+		</errors>
+	</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_simulator_status</command>
+<command_data>
+<group>hello_group</group>
+<name>cap1</name>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <db_name>db1</db_name>
+    <tns>tns1</tns>
+    <status>running</status>
+    <start_time>123213</start_time>
+    <work_scn>21342</work_scn>
+    <work_scn_time>234234</work_scn_time>
+  <op_insert>53</op_insert>
+		<op_update>36</op_update>
+		<op_delete>15</op_delete>
+		<op_ddl>15</op_ddl>
+    <last_sql>select from mytable</last_sql>
+    <history_op>
+     <op_node>
+				<op_insert>53</op_insert>
+				<op_update>36</op_update>
+				<op_delete>15</op_delete>
+				<op_ddl>15</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>37</op_insert>
+				<op_update>12</op_update>
+				<op_delete>34</op_delete>
+				<op_ddl>73</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>23</op_insert>
+				<op_update>12</op_update>
+				<op_delete>33</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>21</op_insert>
+				<op_update>23</op_update>
+				<op_delete>35</op_delete>
+				<op_ddl>23</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>67</op_insert>
+				<op_update>24</op_update>
+				<op_delete>67</op_delete>
+				<op_ddl>43</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>13</op_insert>
+				<op_update>23</op_update>
+				<op_delete>36</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node><op_node>
+				<op_insert>14</op_insert>
+				<op_update>24</op_update>
+				<op_delete>33</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>40</op_insert>
+				<op_update>10</op_update>
+				<op_delete>60</op_delete>
+				<op_ddl>50</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>31</op_insert>
+				<op_update>24</op_update>
+				<op_delete>34</op_delete>
+				<op_ddl>18</op_ddl>
+			</op_node>
+    </history_op>
+    <errors>
+      <error>
+        <error_id>121</error_id>
+        <error_time>243</error_time>
+        <error_message>错啦</error_message>
+      </error>
+      <error>
+        <error_id>121</error_id>
+        <error_time>243</error_time>
+        <error_message>错啦</error_message>
+      </error>
+    </errors>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_simulator_status</command>
+<command_data>
+<group>hello_group</group>
+<name>cap1</name>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+    <db_name>db1</db_name>
+    <tns>tns1</tns>
+    <status>running</status>
+    <start_time>123213</start_time>
+    <work_scn>21342</work_scn>
+    <work_scn_time>234234</work_scn_time>
+  <op_insert>16</op_insert>
+		<op_update>63</op_update>
+		<op_delete>6</op_delete>
+		<op_ddl>78</op_ddl>
+    <last_sql>select from mytable</last_sql>
+    <history_op>
+     <op_node>
+				<op_insert>16</op_insert>
+				<op_update>63</op_update>
+				<op_delete>6</op_delete>
+				<op_ddl>78</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>37</op_insert>
+				<op_update>12</op_update>
+				<op_delete>34</op_delete>
+				<op_ddl>73</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>23</op_insert>
+				<op_update>12</op_update>
+				<op_delete>33</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>21</op_insert>
+				<op_update>23</op_update>
+				<op_delete>35</op_delete>
+				<op_ddl>23</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>67</op_insert>
+				<op_update>24</op_update>
+				<op_delete>67</op_delete>
+				<op_ddl>43</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>13</op_insert>
+				<op_update>23</op_update>
+				<op_delete>36</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node><op_node>
+				<op_insert>14</op_insert>
+				<op_update>24</op_update>
+				<op_delete>33</op_delete>
+				<op_ddl>10</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>40</op_insert>
+				<op_update>10</op_update>
+				<op_delete>60</op_delete>
+				<op_ddl>50</op_ddl>
+			</op_node>
+			<op_node>
+				<op_insert>31</op_insert>
+				<op_update>24</op_update>
+				<op_delete>34</op_delete>
+				<op_ddl>18</op_ddl>
+			</op_node>
+    </history_op>
+    <errors>
+      <error>
+        <error_id>121</error_id>
+        <error_time>243</error_time>
+        <error_message>错啦</error_message>
+      </error>
+      <error>
+        <error_id>121</error_id>
+        <error_time>243</error_time>
+        <error_message>错啦</error_message>
+      </error>
+    </errors>
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>test_apply_db</command>
+<command_data>
+<db_type>ORACLE</db_type>
+<db_user>
+</db_user>
+<db_password>
+</db_password>
+<tns>
+</tns>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_db_schema</command>
+<command_data>
+<db_type>ORACLE</db_type>
+<db_user>
+</db_user>
+<db_password>
+</db_password>
+<tns>
+</tns>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<schema>用户A</schema>
+<schema>用户B</schema>
+<schema>用户C</schema>
+</return_data>
+</dip_command>
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Started at Sun Sep 09 16:34:40 CST 2012
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group</command>
+</dip_command>
+
+
+Send:
+<dip_command>
+  <command_return>SUCCESS</command_return>
+  <return_data>
+  	 <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	  <group><name>A</name><description>描述A</description></group>
+  	 <group><name>B</name><description>描述B</description></group>
+  	 
+  </return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>A</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>test_apply_db</command>
+<command_data>
+<db_type>ORACLE</db_type>
+<db_user>
+</db_user>
+<db_password>
+</db_password>
+<tns>
+</tns>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_db_schema</command>
+<command_data>
+<db_type>ORACLE</db_type>
+<db_user>
+</db_user>
+<db_password>
+</db_password>
+<tns>
+</tns>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<schema>用户A</schema>
+<schema>用户B</schema>
+<schema>用户C</schema>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>test_apply_db</command>
+<command_data>
+<db_type>ORACLE</db_type>
+<db_user>DSDAS</db_user>
+<db_password>dASD</db_password>
+<tns>asd</tns>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_db_schema</command>
+<command_data>
+<db_type>ORACLE</db_type>
+<db_user>DSDAS</db_user>
+<db_password>dASD</db_password>
+<tns>asd</tns>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<schema>用户A</schema>
+<schema>用户B</schema>
+<schema>用户C</schema>
+</return_data>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>add_apply_config</command>
+<command_data>
+<group>GroupA</group>
+<server_name>qwe</server_name>
+<server_type>
+</server_type>
+<db_type>ORACLE</db_type>
+<db_user>DSDAS</db_user>
+<db_password>dASD</db_password>
+<tns>asd</tns>
+<skip_taged>YES</skip_taged>
+<auto_fix>YES</auto_fix>
+<skip_error>auto_fix</skip_error>
+<delay_alert>11</delay_alert>
+<data_reserved_days>11</data_reserved_days>
+<filter>
+<filter_type>include</filter_type>
+</filter>
+<filter>
+<filter_type>exclude>
+</filter_type>
+</filter>
+</command_data>
+</dip_command>
+
+
+Send:
+	<dip_command>
+<command_return>SUCCESS</command_return>
+</dip_command>
+
+
+*************** Request from:/192.168.1.91*********************
+Receive:
+<dip_command>
+<command>query_group_servers</command>
+<command_data>
+<group>GroupA</group>
+</command_data>
+</dip_command>
+
+
+Send:
+<dip_command>
+<command_return>SUCCESS</command_return>
+<return_data>
+<group>GroupA</group>
+<description>什么描述，忘记了，其实组名不该有的！</description>
+<component>
+<type>capture</type>
+<name>名称A</name>
+</component>
+<component>
+<type>loader</type>
+<name>名称B</name>
+</component>
+<component>
+<type>loader+TCDP</type>
+<name>名称B</name>
+</component>
+</return_data>
+</dip_command>
+
+

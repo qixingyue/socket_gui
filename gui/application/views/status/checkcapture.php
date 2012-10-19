@@ -50,9 +50,9 @@ $(document).ready(function() {
 					</tr>
 					<tr>
 						<td>日志分析SCN</td>
-						<td><?php echo $status->work_scn;?></td>
+						<td><?php echo $status->current_scn;?></td>
 						<td>日志分析时间</td>
-						<td><?php echo $status->work_scn_time;?></td>
+						<td><?php echo $status->current_time;?></td>
 					</tr>
 					<tr>
 						<td>统计信息：</td>
@@ -188,9 +188,10 @@ HTML
   	window.curretx = pointsCount;
 </script>
 <script type="text/javascript">
+	
 	<?php $url = current_url(); js_refresh_seconds(<<<JS
 			function(){
-				loader.load("new_node",{group:'$group',name:'$name',type:'$type'},function(res,data){
+				loader.load("new_node",{group:'$group',name:'$name',type:'capture'},function(res,data){
 					if(res){
 					    var x = ++window.curretx;
 						chart.series[0].addPoint([x,data.insert],true,true);

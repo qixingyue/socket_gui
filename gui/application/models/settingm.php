@@ -97,6 +97,7 @@
 		}
 		
 		public function add_capture($group,$name,$type,$sourcedb,$downstreamdb,$node1diaray_path,$node2diaray_path,$users) {
+			//var_dump($downstreamdb,$sourcedb);die;
 			$cmd = $this->makeCommand('add_capture',get_defined_vars());
 			setxmlName('add_capture_success');
 			$res = $this->sendCommand($cmd);

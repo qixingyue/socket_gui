@@ -91,5 +91,8 @@ $(document).ready(function() {
 	$(".runStateTable tr:nth-child(odd)").css("backgroundColor","#ebf1f8");
     $(".runStateTable th:nth-child(n+2)").addClass("b_l_fff");
     $(".runStateTable th:nth-child(-n+7)").addClass("b_r_blue");
+    $("table.runStateTable").each(function(i,obj){
+		$(this).a_width(['70px','15px','30px','120px','60px','120px','30px']);
+    });
 });
 </script>

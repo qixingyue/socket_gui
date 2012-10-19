@@ -117,7 +117,7 @@ $(function(){
 		}
 		var type = _n("dbtype").val();
 		var user = _n("user").val();
-		var password = $(this).val();
+		var password = $(this).val();			
 		var tns = _n("tns1").val();
 		loader.load("dbusers",{type:type,user:user,password:password,tns:tns},function(res,data){
 			if(res != ""){
